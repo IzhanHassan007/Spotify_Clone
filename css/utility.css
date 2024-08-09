@@ -1,0 +1,76 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.itme-center{
+    align-items: center;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;              /* Width of the scrollbar */
+    height: 12px;             /* Height of the scrollbar (for horizontal scrollbars) */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;      /* Background color of the scrollbar track */
+    border-radius: 10px;      /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555;   /* Color of the scrollbar thumb */
+    border-radius: 10px;      /* Rounded corners for the thumb */
+    border: 3px solid #1e1e1e; /* Space around the thumb to give a padding effect */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888;   /* Color of the scrollbar thumb when hovered */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;       /* Make scrollbar thinner */
+    scrollbar-color: #555 #1e1e1e; /* Thumb color and track color */
+  }
+  
+  /* For Edge and IE */
+  body {
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* Show scrollbar only while scrolling */
+  }
+  
